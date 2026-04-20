@@ -75,7 +75,7 @@ A virtual CTO drafts an actionable technical execution plan for the **Minimum Vi
 
 ---
 
-## Getting Started
+## Getting Started (To Be Added)
 
 > ⚠️ See the [Partial Repository Notice](#️-partial-repository-notice) above. These steps assume you have all required files and API keys.
 
@@ -124,6 +124,7 @@ saas-validator/
 │   ├── database.py    # SQLite setup
 │   └── ...
 └── README.md
+└── ...
 ```
 
 > 📁 Some directories and files are not included in this public version.
@@ -133,12 +134,6 @@ saas-validator/
 ## Contributing / Extending
 
 This project is primarily for personal use, but if you'd like to fork and extend it, here are natural entry points:
-
-- **Add a new agent** → create a new file in `backend/agents/` and wire it into the pipeline in `main.py`
-- **Expand social listening** → plug in additional platforms (e.g., Twitter/X, LinkedIn, IndieHackers) via the Social Agent
-- **Swap the AI model** → the model config is centralized; swap GPT-4o for any OpenAI-compatible endpoint
-- **Add export options** → extend the frontend to export validation reports as PDF or Notion pages
+In the future, this project will be completly uploaded for public use.
 
 ---
-
-*Built for founders who want clarity before commitment.*
